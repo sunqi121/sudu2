@@ -6,7 +6,24 @@ public class TUser {
   private long userId;
   private String userName;
   private String userAge;
+  private String lll;
+  private String ooo;
 
+  public String getOoo() {
+    return ooo;
+  }
+
+  public void setOoo(String ooo) {
+    this.ooo = ooo;
+  }
+
+  public String getLll() {
+    return lll;
+  }
+
+  public void setLll(String lll) {
+    this.lll = lll;
+  }
 
   public long getUserId() {
     return userId;
